@@ -22,9 +22,9 @@ class Locations {
   }
 
   getCityNameByCode(code) {
-    return this.cities.filter(city => {
+    return this.cities.filter((city) => {
       return city.country_code === code;
-    })
+    });
   }
 }
 

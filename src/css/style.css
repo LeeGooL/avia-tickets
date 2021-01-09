@@ -1,0 +1,84 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-section .input-field input:focus + label {
+  color: #7b1fa2;
+}
+
+/* label underline focus color */
+.form-section .input-field input[type="text"]:focus {
+  border-bottom: 1px solid #7b1fa2;
+  box-shadow: 0 1px 0 0 #7b1fa2;
+}
+
+.datepicker-day-button:focus {
+  background-color: rgb(123, 31, 162, 0.25);
+}
+
+.datepicker-cancel,
+.datepicker-done {
+  color: #7b1fa2;
+}
+.datepicker-date-display {
+  background-color: #7b1fa2;
+}
+
+.datepicker-table td.is-today {
+  color: #7b1fa2;
+}
+
+.datepicker-table td.is-selected {
+  background-color: #7b1fa2;
+}
+
+.header .brand-logo {
+  position: static;
+
+  font-size: 1.5rem;
+}
+
+.currency-select {
+  width: 120px;
+}
+
+.currency-select input.select-dropdown {
+  margin-bottom: 0;
+
+  color: #ffffff;
+
+  border-bottom: none;
+}
+
+.currency-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.currency-select .caret {
+  fill: #ffffff;
+}
